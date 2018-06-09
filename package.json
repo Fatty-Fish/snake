@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fish": "webapck-dev-server --devtool eval-source-map --progress --colors"
+    "fish": "webapck-dev-server"
   },
   "author": "",
   "license": "MIT",
