@@ -12,7 +12,7 @@ webpack4， 改良版贪吃蛇，
    
 4. 再snake下：webpack-dev-server 在localhost：8080访问。
 
-如果打开页面报错，试试在 webpack.config.js 文件的output下的 path 和 publicPath 的 out 改成 “./out” <\br>
-我也不知道为什么，但是改了好使。。。<\br>
-在我电脑本地的文件不改就好使。<\br>
-在github上clone下来的，就改了好使。
+##### 如果打开页面报错，试试在 webpack.config.js 文件的output下的 path 和 publicPath 的 out 改成 “./out” 
+##### 我也不知道为什么，但是改了好使。。。
+##### 在我电脑本地的文件不改就好使。
+##### 在github上clone下来的，就改了好使。
