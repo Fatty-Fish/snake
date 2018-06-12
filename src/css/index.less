@@ -1,0 +1,87 @@
+@import "./base.less";
+@light-blue: #5B83AD;
+.cover {
+    position: absolute;
+    left: 480px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    ul {
+        height: 135px;
+        width: 400px;
+        li {
+            float: left;
+            margin-left: 23px;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 30px;
+            border: 1px solid #fff;
+            text-align: center;
+            background: @light-blue;
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+            &:hover {
+                background: #f40;
+            }
+        }
+    }
+    button {
+        border: 1px solid #fff;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+        text-align: center;
+        background: orange;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover {
+            background: #f40;
+        }
+    }
+}
+.wrapper {
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 800px;
+    height: 603px;
+    .head {
+        width: 800px;
+        height: 125px;
+        background: #81C0FF;
+        .title {
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        .timer {
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }            
+    }
+    .ground #box {
+        width: 800px;
+        height: 475px;
+        li {
+            width: 30px;
+            height: 30px;
+            border-collapse: collapse;
+            border: 1px solid #999;
+            float: left;
+            border-radius: 50%;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+        }
+    }
+}

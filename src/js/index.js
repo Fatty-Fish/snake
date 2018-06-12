@@ -1,4 +1,4 @@
-require("../index.css");
+require("../css/index.less");
 var makeUl = require("./makeUl.js");
 makeUl();
 var managerClick = require("./managerClick");
