@@ -11,7 +11,7 @@ webpack^3升级前 改良版贪吃蛇，
    ##### npm install webpack-dev-server@2.11.1 -g
    
 4. 再snake下：cnpm install 下载node-modules
-5. 开启webpack server：npm run start
+5. 开启webpack server：npm run fish
 ##### 浏览器localhost:8080访问。
 
 
